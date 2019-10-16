@@ -1,0 +1,39 @@
+using System;
+using System.Text;
+using System.Net;
+using System.IO;
+
+namespace Get
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            RequestWeather();
+            Console.ReadKey();
+        }
+
+        public static void RequestWeather()
+        {
+            StringBuilder str = new StringBuilder();
+            string url = "https://calm-river-86040.herokuapp.com/bookStore/";
+
+            for (int i = 0; i < 9; ++i)
+            {
+                str.Append(url);
+                str.Append(i);
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(str.ToString());
+                request.Method = "GET";
+
+                var webResponse = request.GetResponse();
+                var webStream = webResponse.GetResponseStream();
+                var responseReader = new StreamReader(webStream);
+
+                var response = responseReader.ReadToEnd();
+                Console.WriteLine(response);
+                responseReader.Close();
+                str.Clear();
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Harry Pooter",
+    "desc": "Story about boy who knows a magic",
+    "author": "Rolling",
+    "price": 15
+  },
+  {
+    "id": 2,
+    "name": "Lord of the ring",
+    "desc": "Story about hobbits",
+    "author": "Tolkien",
+    "price": 23
+  },
+  {
+    "id": 3,
+    "name": "Figth Club",
+    "desc": "This book is a perfect story about some strange person",
+    "author": "Chuck Palanick",
+    "price": 11
+  },
+  {
+    "id": 4,
+    "name": "CHERRY",
+    "desc": " The young protagonist in Cherry is an Army Medic (just like Walker was) who returns from Iraq's war zones with severe PTSD",
+    "author": "NICO WALKER",
+    "price": 30
+  },
+  {
+    "id": 5,
+    "name": "KATERINA",
+    "desc": "Thus, begins this sexy and electric novel that flips between modern-day Los Angeles and Paris in 1992",
+    "author": "JAMES FREY",
+    "price": 40
+  },
+  {
+    "id": 6,
+    "name": "FRENCH EXIT",
+    "desc": "Rumor has it that Francis Price discovered her husband dead and then went skiing in Vail for the weekend without bothering to call the authorities.",
+    "author": "PATRICK DEWITT",
+    "price": 43
+  },
+  {
+    "id": 7,
+    "name": "HOW TO BE FAMOUS",
+    "desc": "Remember the mid-'90s obsession with the rising wave of Britpop, when all you wanted was an Oasis CD? ",
+    "author": "CAITLIN MORAN",
+    "price": 0
+  },
+  {
+    "id": 8,
+    "name": "A TERRIBLE COUNTRY",
+    "desc": "In Moscow, he falls for a young activist, gets entwined with a group of leftists, and is forced to confront what it is to be shaped by two radically different societies.",
+    "author": "KEITH GESSEN",
+    "price": 89
+  },
+  {
+    "id": 9,
+    "name": "BAD BLOOD: SECRETS AND LIES IN A SILICON VALLEY STARTUP",
+    "desc": "In 2015, Stanford dropout and founder of the biotech company Theranos Elizabeth Holmes was so ready to be the new Steve Jobs that she even wore the black turtleneck.",
+    "author": "JOHN CARREYROU",
+    "price": 21
+  }
+]
